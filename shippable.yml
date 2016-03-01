@@ -10,6 +10,10 @@ node_js:
   - iojs-v3
   - 5.0
 
+addons:
+  
+  firefox: "27.0"
+  
 services:
  - mysql
  - postgres
